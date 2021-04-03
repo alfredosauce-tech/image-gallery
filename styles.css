@@ -1,0 +1,44 @@
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  ;
+  grid-template-rows:  1fr 1fr 1fr  ;
+  
+
+}
+img{
+  width: 100%;
+  display: block;
+  height: auto;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;  
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #008CBA;
+  
+}
+.picture:hover .overlay {
+  opacity: 1;
+}
+
+body{
+
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+.picture{
+  position: relative;
+
+
+}
